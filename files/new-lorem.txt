@@ -1,0 +1,87 @@
+c=>java=>python=>php
+cc = c compiler
+BCPL developed by martin richard
+B developed by ken thompson
+
+use single quotes for character constants i.e '0' gives the integer value 
+
+use double quotes for string constants i.e "the boy "
+
+
+assignments: 
+program that replace each tab  by the three-character sequence >, backspace, -, which prints as >, and each backspace by the similar sequence <
+write a program which prints the words in its input, one per line
+write a program to print a histogram of the lengths of words in its input (horizontally or vertically draw the histogram) 
+write a program to convert its input to lowercase, which returns c if c is not a letter and the lower case value of c if it is a letter  
+write a program to print all lines that are longer than 80 characters
+exercise 1-18. The test in the for statement of get_line above is rather ungainly . rewrite the program to make it clearer, but retain the same behavior at end of file or buffer overflow. is this behavior the most reasonable?
+exercise 1-19. write a program detab which replaces tabs in the input with the proper number of blanks to space to the next tab stop. assume a fixed set of tab stops, say every n positions.
+exercise 1-20. write a program entab which replaces strings of blanks by the minimum number of tabs and blanks to achieve the same spacing. use the same tab stops as for detab.
+exercise 1-21. write a program to "fold" long input lines after the last non-blank character that occurs before the n-th column of input, where n is a parameter.make sure your program does something intelligent with very long lines, and if there are no blanks or tabs before the specified column.
+exercise 1-22. write a program to remove all comments from a c program. dont forget to handle quoted strings and character constants properly.
+exercise 1-23. write a program to check a c program for rudimentary syntax errors like unbalanced parentheses, brackets and braces. dont forget about quotes, both single and double, and comments. 
+exercise 2.2. write the function htoi(s), which converts a string of hexadecimal digits into its equivalent interger value. the allowable digits are 0 through 9, a through f, and A through F.
+exercise 2-3 write an alternate version of squeeze(s1,s2) which deletes each character in s1 which matches any character in the string s2.
+exercise 2-5 modify getbits to number bits from left to right
+exercise 2-6. write a function wordlength() which computes the word length of the host machine, that is, the number of bits in an int. the function should be portable, in the sense that the same code works on all machines
+exercise 2-7. write the function rightrot(n, b) which rotates the integer n to the right by b bit positions.
+exercise 2-8. write the function invert(x, p, n) whuch inverts (i.e., changes 1 into 0 and vice versa) the n bits of x that begin at position p, leaving the others unchanged
+exercise 2-9. in a 2's complement number system, x & ( x-1 ) deletes the rightmost 1-bit in x. (why?) use this observation to write a faster version of bitcount.
+exercise 2-10. rewrite the function lower, which converts upper case to lower case, with a conditional expression instead of if-else.
+exercise 3-1. write a function expand(s, t) which converts characters like newline and tab into visible escape sequences like \n and \t as it copies the string s to t. Use a switch.
+exercise 3-2. write a function expand(s1, s2) which expands shorthand notations like a-z into the equivalent complete list abc...xyz in s2. Allow for letters of either case and digits, and be prepared to handle cases like a-b-c and a-z0-9 and -a-z. (A useful convention is that a leading or trailing - is taken literally.) 
+
+
+
+
+
+
+%d = decimal integer
+%f = floating point/double ( printf uses this )
+%o = octal
+%x = hexadecimal
+%c = character
+%s = character string
+%% = %
+%ld = long integer
+
+
+for(expr1;expr2;expr3)			expr1;
+	statement;		=	while(expr2)
+					statement;
+					expr3;
+
+
+
+
+
+checkout;
+automatic variables
+static variables
+
+local variable = automatic variable
+
+
+fundamental data types in c
+1. characters
+2..integers of varying sizes
+3.floating point numbers
+
+https://bit.ly/mingw10
+
+
+code runner usage
+Usages
+
+To run code:
+use shortcut Ctrl+Alt+N
+or press F1 and then select/type Run Code,
+or right click the Text Editor and then click Run Code in editor context menu
+or click Run Code button in editor title menu
+or click Run Code button in context menu of file explorer
+
+To stop the running code:
+use shortcut Ctrl+Alt+M
+or press F1 and then select/type Stop Code Run
+or click Stop Code Run button in editor title menu
+or right click the Output Channel and then click Stop Code Run in context menu
